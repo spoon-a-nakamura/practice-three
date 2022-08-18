@@ -45,4 +45,8 @@ export class TCanvas extends TCanvasBase {
     const gui = new GUI()
     gui.add(material.uniforms.u_progress, 'value', 0, 1, 0.01)
   }
+
+  private update = () => {
+    console.log()
+  }
 }
