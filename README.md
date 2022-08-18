@@ -1,6 +1,6 @@
-# three-learn-0818
+# practice-three
 
-https://spoon-inoue.github.io/three-learn-0818/
+https://spoon-a-nakamura.github.io/practice-three/
 
 ```
 npm install

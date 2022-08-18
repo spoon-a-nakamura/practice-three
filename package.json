@@ -1,27 +1,33 @@
 {
-	"name": "three-learn-0818",
-	"private": true,
-	"version": "0.0.0",
-	"homepage": "https://spoon-inoue.github.io/three-learn-0818/",
-	"scripts": {
-		"start": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"deploy": "npm run build && gh-pages -d dist"
-	},
-	"devDependencies": {
-		"@types/node": "^18.7.6",
-		"@types/three": "^0.143.1",
-		"gh-pages": "^4.0.0",
-		"sass": "^1.54.4",
-		"typescript": "^4.6.4",
-		"vite": "^3.0.7",
-		"vite-plugin-glsl": "^0.2.2"
-	},
-	"dependencies": {
-		"gsap": "^3.11.0",
-		"lil-gui": "^0.17.0",
-		"ress": "^5.0.2",
-		"three": "^0.143.0"
-	}
+  "name": "practice-three",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://spoon-a-nakamura.github.io/practice-three/",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write src/**/*.{ts,scss}"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "@types/three": "^0.143.1",
+    "gh-pages": "^4.0.0",
+    "sass": "^1.54.4",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vite-plugin-glsl": "^0.2.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "gsap": "^3.11.0",
+    "lil-gui": "^0.17.0",
+    "prettier": "^2.7.1",
+    "ress": "^5.0.2",
+    "three": "^0.143.0"
+  }
 }
